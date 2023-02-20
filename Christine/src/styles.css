@@ -1,4 +1,10 @@
 /* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Phudu:wght@700&display=swap');
+
+h1 {
+  font-family: 'Phudu', cursive;
+}
+
 .bg-light {
   color: white;
   background-size: cover;
@@ -32,6 +38,11 @@ body, .bg-beige {
 
 .btn, .navbar-brand .nav-link {
   transition: all 0.2s linear;
+}
+
+.navbar-brand {
+  font-family: 'Phudu', cursive;
+  font-size: 2rem;
 }
 
 .btn:hover, .card:hover, .navbar-brand:hover {
