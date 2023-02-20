@@ -1,3 +1,8 @@
+@font-face {
+    font-family: peopleFont;
+    src: url(../../assets/Fonts/BeautifulPeoplePersonalUse-dE0g.ttf);
+}
+
 body {
     font-size: 16px;
 }
@@ -13,6 +18,11 @@ body {
     font-size: 2rem;
     font-weight: 500;
     color: azure;
+    font-family: peopleFont;
+    h2 {
+        font-weight: 500;
+        // text-transform: uppercase;
+    }
 }
 
 .heroBottom {
@@ -26,24 +36,24 @@ body {
     z-index: 1;
 }
 
-.facilities {
-    display: inline-block;
-    border-radius: 50%;
-    width: 6rem;
-    height: 6rem;
-    background-color: rgba(#ccc, .3);
-    font-size: .8rem;
-    color: black;
-    img {
-        width: 1rem;
-        height: 1rem;
-    }
-}
-
 .imgContainer {
     display: flex;
     justify-content: space-around;
     span {
         text-align: center;
+        line-height: 5;
+    }
+    .facilities {
+        display: inline-block;
+        border-radius: 50%;
+        width: 6rem;
+        height: 6rem;
+        background-color: rgba(#ccc, .3);
+        font-size: .8rem;
+        color: black;
+        img {
+            width: 1rem;
+            height: 1rem;
+        }
     }
 }

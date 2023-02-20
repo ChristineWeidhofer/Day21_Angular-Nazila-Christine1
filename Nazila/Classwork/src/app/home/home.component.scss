@@ -1,0 +1,13 @@
+.card {
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    transition: all 0.2s linear;
+    &:hover {
+        border-color: rgb(61, 73, 58);
+        cursor: pointer;
+        background-color: #eef3e8;
+    }
+}
+
+.btn {
+    background-color: #A6BB8D !important;
+}
