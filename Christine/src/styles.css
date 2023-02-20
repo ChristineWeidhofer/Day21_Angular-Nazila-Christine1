@@ -1,8 +1,11 @@
 /* You can add global styles to this file, and also import other style files */
 @import url('https://fonts.googleapis.com/css2?family=Phudu:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Tibetan&display=swap');
 
 h1 {
+  font-size: 4rem;
   font-family: 'Phudu', cursive;
+  /* font-family: 'Noto Serif Tibetan', serif; */
 }
 
 .bg-light {
@@ -14,16 +17,6 @@ h1 {
   align-items: flex-end;
 }
 
-.navbar-toggler-icon {
-  background-color: white;
-}
-
-@media screen and (max-width: 991px) {
-  .navbar {
-    background-color: rgb(49, 48, 48);
-  }
-}
-
 body, .bg-beige {
   background-color: beige;
   background-size: cover;
@@ -31,24 +24,10 @@ body, .bg-beige {
   
 }
 
-.card {
-  box-shadow: 0px 0px 15px rgb(159, 157, 157);
+.btn {
   transition: all 0.2s linear;
 }
 
-.btn, .navbar-brand .nav-link {
-  transition: all 0.2s linear;
-}
-
-.navbar-brand {
-  font-family: 'Phudu', cursive;
-  font-size: 2rem;
-}
-
-.btn:hover, .card:hover, .navbar-brand:hover {
+.btn:hover {
   transform: scale(1.01);
-}
-
-.nav-link:hover {
-  text-transform: uppercase;
 }
