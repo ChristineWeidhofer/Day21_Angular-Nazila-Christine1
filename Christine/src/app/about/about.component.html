@@ -1,11 +1,12 @@
 <hero-about></hero-about>
 
-<div class="container my-5">
-  <div class="row row-cols-2">
-    <h1>{{headingAbt}}</h1>
+<div class="container my-5 mx-auto bg-beige">
+  <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-3 justify-content-center align-items-center">
+    <h1 class="text-center">{{headingAbt}}</h1>
+    <img src="../../assets/monk.jpg" class="rounded-circle" alt="">
     <div>
-      <p>{{textAbt}}</p>
-      <button class="btn btn-secondary"><a href="mailto:{{emailAbt}}"></a>Contact Me</button>
+      <p class="fs-5 text-muted my-4">{{textAbt}}</p>
+      <button class="btn btn-outline-danger"><a href="mailto:{{emailAbt}}"></a>Contact Me</button>
     </div>
   </div>
 </div>
